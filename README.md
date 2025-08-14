@@ -4,6 +4,7 @@ Project Summary
 This project applies Support Vector Machine (SVM) algorithms to classify breast cancer cases as Malignant or Benign based on clinical features.
 Both Linear and RBF Kernel SVMs are implemented, tuned, and evaluated using cross-validation.
 The models are visualized using PCA-based decision boundaries and confusion matrices.
+
 ------------
 Features
 
