@@ -1,34 +1,32 @@
- Support Vector Machine (SVM) Classification – Breast Cancer Dataset
- 
-  Overview
+Breast Cancer Classification using Support Vector Machines
 
-This project applies Support Vector Machines (SVM) for binary classification using the Breast Cancer dataset.
-It covers both Linear and Non-Linear (RBF kernel) SVMs, hyperparameter tuning, model evaluation, and visualization of decision boundaries.
+Project Summary
+This project applies Support Vector Machine (SVM) algorithms to classify breast cancer cases as Malignant or Benign based on clinical features.
+Both Linear and RBF Kernel SVMs are implemented, tuned, and evaluated using cross-validation.
+The models are visualized using PCA-based decision boundaries and confusion matrices.
 
-All results (reports, confusion matrices, and plots) are automatically saved in the svm_outputs folder for easy reference.
+Features
 
- Features
+Linear SVM Classifier for basic separation
 
-Linear SVM Classification
+RBF Kernel SVM for capturing complex, non-linear patterns
 
-RBF Kernel SVM with Hyperparameter Tuning
+Hyperparameter tuning for C and gamma
 
-Cross-Validation for Model Evaluation
+Confusion Matrix visualization for both models
 
-Confusion Matrix Visualization (PNG)
+PCA-based decision boundary plotting
 
- Decision Boundary Visualization using PCA
+Cross-validation for robust performance evaluation
 
- Automatic Saving of Outputs
+Automatic saving of results and plots
 
-Libraries
+Tech Stack
 
-Pandas – Data loading & preprocessing
+Python
 
-NumPy – Numerical operations
+Pandas, NumPy
 
-Scikit-learn – SVM models, evaluation, and cross-validation
+Scikit-learn
 
-Matplotlib & Seaborn – Plotting and visualization
-
-PCA – Dimensionality reduction for plotting
+Matplotlib, Seaborn
